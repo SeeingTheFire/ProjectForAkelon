@@ -31,7 +31,7 @@ class Program
             {
                 // Генерируем случайную дату начала отпуска
                 var startDate = start.AddDays(gen.Next(range));
-                if (startDate.DayOfWeek is not (not DayOfWeek.Sunday and DayOfWeek.Saturday))
+                if (startDate.DayOfWeek is DayOfWeek.Sunday or DayOfWeek.Saturday)
                 {
                     continue;
                 }
@@ -46,7 +46,8 @@ class Program
                     continue;
                 }
 
-                if (!employee.AddVacation(startDate, endDate))
+                //
+                if (!employee.TryAddVacation(startDate, endDate))
                 {
                     continue;
                 }

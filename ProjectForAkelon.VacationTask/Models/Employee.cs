@@ -65,12 +65,12 @@ public record Employee
     }
 
     /// <summary>
-    /// Метод добавления нового отпуска
+    /// Метод попытки добавления нового отпуска
     /// </summary>
     /// <param name="startDate">Дата начала</param>
     /// <param name="endDate">Дата конца</param>
     /// <returns>Успешность выполнения операции</returns>
-    public bool AddVacation(DateTime startDate, DateTime endDate)
+    public bool TryAddVacation(DateTime startDate, DateTime endDate)
     {
         // Проверяем есть ли уже существующий отпуск в границах +-1 месяц от нового
         var exist = _vacations.Exists(v =>
@@ -91,7 +91,6 @@ public record Employee
     {
         return _id.GetHashCode();
     }
-
 
     /// <inheritdoc />
     public virtual bool Equals(Employee? other)
