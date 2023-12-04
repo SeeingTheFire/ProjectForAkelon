@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectForAkelon.VacationTask", "ProjectForAkelon.VacationTask\ProjectForAkelon.VacationTask.csproj", "{FDEC3525-86FA-42F6-B512-46234B2930CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectForAkelon.ExcelTask", "ProjectForAkelon.ExcelTask\ProjectForAkelon.ExcelTask.csproj", "{93A45DCF-3CE2-4BD2-B123-2A90646BFD7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDEC3525-86FA-42F6-B512-46234B2930CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDEC3525-86FA-42F6-B512-46234B2930CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDEC3525-86FA-42F6-B512-46234B2930CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDEC3525-86FA-42F6-B512-46234B2930CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93A45DCF-3CE2-4BD2-B123-2A90646BFD7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93A45DCF-3CE2-4BD2-B123-2A90646BFD7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93A45DCF-3CE2-4BD2-B123-2A90646BFD7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93A45DCF-3CE2-4BD2-B123-2A90646BFD7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
